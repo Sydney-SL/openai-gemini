@@ -1,5 +1,6 @@
 name: Deploy Worker
 on:
+  workflow_dispatch:  # 手动触发
   push:
     branches:
       - main
